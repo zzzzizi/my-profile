@@ -1,0 +1,46 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.card__title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.card__content {
+  width: 600px;
+
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.card__left {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.time {
+  color: blue;
+  font-weight: 700;
+  font-size: 20px;
+}
+.name {
+  font-size: 15px;
+  font-weight: 600;
+}
+.edu__line__two {
+  font-size: 15px;
+  font-weight: 600;
+}
+.edu__line__three {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.edu__text {
+  padding-top: 120px;
+  padding-left: 70px;
+  font-size: 15px;
+}
