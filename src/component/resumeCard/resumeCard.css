@@ -7,12 +7,26 @@
   margin: 0;
   font-size: 30px;
   font-weight: 600;
-  margin-top: 70px;
-  margin-bottom: 50px;
+  margin-top: 80px;
+}
+.card__summary {
+  width: 700px;
+  margin-top: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.card__summary__p {
+  padding-top: 70px;
+  padding-left: 70px;
+  padding-bottom: 70px;
+  padding-right: 50px;
+  font-size: 15px;
+  line-height: 40px;
 }
 .card__content {
-  width: 600px;
-
+  width: 700px;
+  margin-top: 50px;
   background-color: white;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -30,17 +44,20 @@
   font-size: 15px;
   font-weight: 600;
 }
-.edu__line__two {
+.card__line__two {
   font-size: 15px;
   font-weight: 600;
 }
-.edu__line__three {
+.card__line__three {
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 50px;
 }
-.edu__text {
+.card__text {
   padding-top: 120px;
   padding-left: 70px;
+  padding-bottom: 70px;
+  padding-right: 50px;
   font-size: 15px;
+  line-height: 40px;
 }
