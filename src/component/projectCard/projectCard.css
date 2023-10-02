@@ -1,0 +1,50 @@
+.project__card {
+  width: 1000px;
+  background-color: white;
+  display: flex;
+  height: 313px;
+  margin-bottom: 100px;
+}
+.project__card__left {
+  flex: 1;
+}
+.project__name__line {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 50px;
+}
+.project__name__left {
+  background-color: blue;
+  width: 5px;
+  height: 35px;
+  margin-right: 45px;
+}
+.project__name {
+  font-size: 23px;
+  color: blue;
+  font-weight: 900;
+}
+.project__text {
+  font-size: 15px;
+
+  margin-left: 70px;
+  margin-right: 20px;
+}
+.project__skill {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+.project__skill p {
+  font-size: 13px;
+  margin: 0;
+  margin-left: 70px;
+  margin-top: 3px;
+}
+.project__card__right {
+  flex: 1;
+}
+.project__pic {
+  width: 500px;
+}

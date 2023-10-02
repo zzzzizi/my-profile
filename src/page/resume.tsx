@@ -52,7 +52,7 @@ export const Resume = () => {
         summary={false}
       />
       <ResumeCard
-        title="Summaaaaaary"
+        title="Summary"
         textOne={sumTextOne}
         textTwo={sumTextTwo}
         textThree={sumTextThree}
