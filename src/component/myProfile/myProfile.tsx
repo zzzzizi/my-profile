@@ -1,8 +1,11 @@
 import myPic from '../../assets/myPic.jpg';
 import './myProfile.css';
+import { useNavigate } from 'react-router-dom';
 import { ProfileBtn } from '../profileBtn/pfofileBtn';
 
 export const MyProfile = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="profile">
       <div className="profile__content">
@@ -17,8 +20,11 @@ export const MyProfile = () => {
           <p className="paragraph__top">Hello</p>
           <p className="paragraph__middle">Here's who I am & what I do</p>
           <div className="paragraph__btn">
-            <ProfileBtn text={'RESUME'} />
-            <ProfileBtn text="PROJECTS" />
+            <ProfileBtn text="RESUME" handleClick={() => navigate('/resume')} />
+            <ProfileBtn
+              text="PROJECTS"
+              handleClick={() => navigate('/resume')}
+            />
           </div>
           <p>some introduction</p>
         </div>

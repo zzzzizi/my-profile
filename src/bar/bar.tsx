@@ -12,10 +12,7 @@ export const Bar = () => {
         <p className="bar__name">Yingji&nbsp;Zheng</p>
       </div>
       <div className="bar__right">
-        <BarRightBtn
-          btn={'ABOUT\xa0ME'}
-          handleClick={() => navigate('about-me')}
-        />
+        <BarRightBtn btn={'ABOUT\xa0ME'} handleClick={() => navigate('/')} />
         <BarRightBtn
           btn={'PORJECTS'}
           handleClick={() => navigate('projects')}

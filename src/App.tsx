@@ -7,6 +7,7 @@ import { Contact } from './page/contact';
 import { Home } from './page/home';
 import { Bar } from './bar/bar';
 import './App.css';
+import { Footer } from './footer/footer';
 
 function App() {
   return (
@@ -16,14 +17,15 @@ function App() {
       </div>
       <div className="app__middle">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/" element={<AboutMe />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-      <div className="app__footer">footer</div>
+      <div className="app__footer">
+        <Footer />
+      </div>
     </div>
   );
 }
