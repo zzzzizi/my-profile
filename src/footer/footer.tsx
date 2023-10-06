@@ -1,5 +1,5 @@
 import gitHubIcon from '../assets/gitHubIcon.png';
-import linkedinIcon from '../assets/linkedinIcon.jpg';
+import linkedinIcon from '../assets/linkedinIcon.png';
 import './footer.css';
 
 export const Footer = () => {
@@ -9,12 +9,12 @@ export const Footer = () => {
   return (
     <div className="footer">
       <div className="footer__img__container">
-        <a href={urlOne}>
+        <a href={urlTwo}>
           <img src={gitHubIcon} alt="gitHub" className="footer__img" />
         </a>
       </div>
       <div>
-        <a href={urlTwo}>
+        <a href={urlOne}>
           <img src={linkedinIcon} alt="linkedin" className="footer__img" />
         </a>
       </div>
