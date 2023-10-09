@@ -11,3 +11,9 @@
   cursor: pointer;
   color: rgb(0, 80, 172);
 }
+@media only screen and (max-width: 720px) {
+  .bar__right__btn {
+    margin-left: 3px;
+    margin-right: 0px;
+  }
+}
