@@ -78,4 +78,7 @@
     overflow: auto;
     height: auto;
   }
+  .paragraph__middle {
+    font-size: 25px;
+  }
 }
