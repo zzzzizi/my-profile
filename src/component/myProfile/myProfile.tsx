@@ -11,8 +11,8 @@ export const MyProfile = () => {
       <div className="profile__content">
         <div className="card__container">
           <img src={myPic} alt="Me" className="pic" />
-          <p className="profile__nanme">Yingji</p>
-          <p className="profile__nanme">Zheng</p>
+          <p className="profile__name">Yingji</p>
+          <p className="profile__name">Zheng</p>
           <div className="line"></div>
           <p className="title">FRONTEND DEVELOPER</p>
         </div>

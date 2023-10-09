@@ -4,6 +4,7 @@
   justify-content: center;
   background-color: white;
 }
+
 .bar__left {
   flex: 1;
   display: flex;
@@ -28,4 +29,13 @@
   flex-wrap: nowrap;
   justify-content: end;
   margin-right: 50px;
+}
+@media only screen and (max-width: 720px) {
+  .bar {
+    display: flex;
+    flex-direction: column;
+  }
+  .bar__right {
+    margin-bottom: 10px;
+  }
 }
