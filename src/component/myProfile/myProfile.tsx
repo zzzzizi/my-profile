@@ -5,7 +5,8 @@ import { ProfileBtn } from '../profileBtn/pfofileBtn';
 
 export const MyProfile = () => {
   const navigate = useNavigate();
-
+  const introduction =
+    'I have been self-learning front-end development software for a year and have a solid foundation in HTML, CSS, TypeScript and react.js.';
   return (
     <div className="profile">
       <div className="profile__content">
@@ -26,7 +27,7 @@ export const MyProfile = () => {
               handleClick={() => navigate('/resume')}
             />
           </div>
-          <p>some introduction</p>
+          <p>{introduction}</p>
         </div>
       </div>
     </div>
