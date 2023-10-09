@@ -72,10 +72,11 @@
   .profile__content {
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
+    margin-left: 50px;
   }
   .profile {
     overflow: auto;
+    overflow-x: hidden;
     height: auto;
   }
   .paragraph__middle {
