@@ -6,14 +6,17 @@ import weatherPic from '../assets/weatherPic.png';
 import calculatorPic from '../assets/calculatorPic.png';
 
 export const Projects = () => {
+  const pokemonUrl = 'https://my-pokemon-ashy.vercel.app/';
   const pokemonSkill =
     'CSS· TypeScript · React.js · Redux.js · RxJS · User Interface Design · Responsive Web Design · REST APIs · Routers';
   const pokemonText =
     'The Pokemon project is a web application that allows users to search for specific Pokemon, browse a list of all Pokemon, and play small games with their friends.';
+  const weatherUrl = 'https://weather-app-ivory-alpha.vercel.app/';
   const weatherText =
     'Weather App is a web application that allows users to search for the weather forecast for a city for the next three days. Additionally, users can register and log in to manage their favorite cities and receive weather updates.';
   const weatherSkill =
     'CSS· TypeScript · React.js · Redux.js · REST APIs · Routers · chart.js · formik · yup';
+  const calculatorUrl = 'https://my-calculator-gamma.vercel.app/';
   const calculatorText =
     'The Calculator App is a web application that allows users to calculate simple and advanced mathematical functions, which changes Infix notation to Polish postfix notation to make calculator results more precise and helps you to record the calculated formula.';
   const calculatorSkill = 'CSS· TypeScript · React.js · Redux.js ';
@@ -26,18 +29,21 @@ export const Projects = () => {
         text={pokemonText}
         skill={pokemonSkill}
         pic={pokemonPic}
+        url={pokemonUrl}
       />
       <ProjectCard
         pName="My Weather"
         text={weatherText}
         skill={weatherSkill}
         pic={weatherPic}
+        url={weatherUrl}
       />
       <ProjectCard
         pName="My Calculator"
         text={calculatorText}
         skill={calculatorSkill}
         pic={calculatorPic}
+        url={calculatorUrl}
       />
     </div>
   );

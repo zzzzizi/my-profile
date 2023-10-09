@@ -42,6 +42,12 @@
   color: blue;
   font-weight: 900;
 }
+.project__name:hover {
+  cursor: pointer;
+}
+.project__link {
+  text-decoration: none;
+}
 .project__text {
   font-size: 15px;
 
