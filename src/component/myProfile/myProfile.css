@@ -7,7 +7,7 @@
 }
 @media only screen and (min-width: 721px) {
   .profile {
-    height: 100vh;
+    height: 800px;
   }
 }
 .profile__content {
