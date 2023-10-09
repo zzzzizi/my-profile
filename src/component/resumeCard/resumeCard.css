@@ -66,10 +66,38 @@
   line-height: 40px;
 }
 @media only screen and (max-width: 720px) {
+  .card__summary {
+    width: 360px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: white;
+  }
+  .card__summary__p {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    font-size: 15px;
+    line-height: 40px;
+  }
+
+  .card__line__three {
+    margin-bottom: 20px;
+  }
   .card__content {
     background-color: white;
     display: flex;
     flex-direction: column;
     width: 360px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .card__text {
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    font-size: 15px;
+    line-height: 35px;
   }
 }

@@ -9,7 +9,9 @@ export const ContactCard = () => {
         <div className="contact">
           <div>
             <p>My Linkedin:</p>
-            <a href={urlOne}>{urlOne}</a>
+            <a href={urlOne} className="linkedin__url">
+              {urlOne}
+            </a>
           </div>
           <div>
             <p>My Github:</p> <a href={urlTwo}>{urlTwo}</a>

@@ -19,3 +19,11 @@
 .phone__number {
   color: rgb(8, 0, 114);
 }
+@media only screen and (max-width: 720px) {
+  .card__contact {
+    width: 360px;
+  }
+  .linkedin__url {
+    overflow-wrap: break-word;
+  }
+}
