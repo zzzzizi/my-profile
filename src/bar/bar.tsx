@@ -14,7 +14,7 @@ export const Bar = () => {
       <div className="bar__right">
         <BarRightBtn btn={'ABOUT\xa0ME'} handleClick={() => navigate('/')} />
         <BarRightBtn
-          btn={'PORJECTS'}
+          btn={'PROJECTS'}
           handleClick={() => navigate('projects')}
         />
         <BarRightBtn btn={'RESUME'} handleClick={() => navigate('resume')} />

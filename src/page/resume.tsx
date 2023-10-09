@@ -38,7 +38,7 @@ export const Resume = () => {
       <ResumeCard
         title="Technical Skill"
         time={skillTime}
-        lineTwo="self-taught"
+        lineTwo="Self-taught"
         textOne={skillText}
         summary={false}
       />
