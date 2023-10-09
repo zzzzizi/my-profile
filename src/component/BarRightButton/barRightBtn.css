@@ -15,5 +15,6 @@
   .bar__right__btn {
     margin-left: 3px;
     margin-right: 0px;
+    font-size: 13px;
   }
 }
