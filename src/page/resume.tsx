@@ -7,6 +7,8 @@ export const Resume = () => {
   const eduName = 'Sichuan University';
   const eduDegree = "Bachelor's degree";
   const eduMajor = 'Major: Finance';
+  const eduText =
+    'I learned how to self-study, how to face difficulties, how to solve problems, and how to discover my own potential in college.';
   const skillText =
     'HTML, CSS, React.js, Redux.js, Epic.js, RxJs, Typescript, JavaScript, REST APIs, Design Patterns, Interactive Applications, Functional Requirements, Responsive Web Design, User Interface Design, User Experience Design';
   const skillTime = '2022 - 2023';
@@ -48,7 +50,7 @@ export const Resume = () => {
         name={eduName}
         lineTwo={eduDegree}
         lineThree={eduMajor}
-        textOne="A"
+        textOne={eduText}
         summary={false}
       />
       <ResumeCard
