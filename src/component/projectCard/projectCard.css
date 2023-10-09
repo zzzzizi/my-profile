@@ -5,8 +5,22 @@
   height: 313px;
   margin-bottom: 100px;
 }
+@media only screen and (max-width: 720px) {
+  .project__card {
+    flex-direction: column;
+    width: 360px;
+    height: 600px;
+  }
+}
+@media only screen and (min-width: 721px) {
+  .project__card__left {
+    flex: 1;
+  }
+  .project__card__right {
+    flex: 1;
+  }
+}
 .project__card__left {
-  flex: 1;
   position: relative;
 }
 .project__name__line {
@@ -44,11 +58,25 @@
   margin-left: 70px;
   margin-top: 3px;
 }
-.project__card__right {
-  flex: 1;
-}
+
 .project__pic {
   width: 500px;
   height: 313px;
   object-fit: fill;
+}
+@media only screen and (max-width: 720px) {
+  .project__card__left {
+    flex: 2;
+  }
+  .project__card__right {
+    flex: 1;
+    height: 230px;
+  }
+  .project__pic {
+    width: 360px;
+    height: 230px;
+  }
+  .project__skill {
+    bottom: 23px;
+  }
 }
