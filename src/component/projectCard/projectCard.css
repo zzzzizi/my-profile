@@ -1,5 +1,5 @@
 .project__card {
-  width: 800px;
+  width: 740px;
   background-color: white;
   display: flex;
   height: 280px;
@@ -50,7 +50,7 @@
 }
 .project__text {
   font-size: 14px;
-
+  margin: 0;
   margin-left: 70px;
   margin-right: 20px;
 }
@@ -68,7 +68,7 @@
 }
 
 .project__pic {
-  width: 400px;
+  width: 370px;
   height: 280px;
   object-fit: fill;
 }
