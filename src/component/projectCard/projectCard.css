@@ -1,8 +1,8 @@
 .project__card {
-  width: 1000px;
+  width: 800px;
   background-color: white;
   display: flex;
-  height: 313px;
+  height: 280px;
   margin-bottom: 100px;
 }
 @media only screen and (max-width: 720px) {
@@ -29,7 +29,7 @@
   display: flex;
   justify-content: start;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .project__name__left {
   background-color: blue;
@@ -49,14 +49,14 @@
   text-decoration: none;
 }
 .project__text {
-  font-size: 15px;
+  font-size: 14px;
 
   margin-left: 70px;
   margin-right: 20px;
 }
 .project__skill {
   position: absolute;
-  bottom: 10px;
+  bottom: 12px;
   display: flex;
   flex-direction: column;
 }
@@ -68,8 +68,8 @@
 }
 
 .project__pic {
-  width: 500px;
-  height: 313px;
+  width: 400px;
+  height: 280px;
   object-fit: fill;
 }
 @media only screen and (max-width: 720px) {
@@ -80,12 +80,15 @@
     flex: 1;
     height: 230px;
   }
+  .project__name__line {
+    margin-top: 35px;
+  }
   .project__pic {
     width: 350px;
     height: 230px;
   }
   .project__skill {
-    bottom: 23px;
+    bottom: 40px;
   }
   .project__text {
     font-size: 13px;
