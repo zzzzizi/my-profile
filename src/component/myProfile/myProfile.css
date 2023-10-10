@@ -68,6 +68,10 @@
   width: 400px;
   display: flex;
 }
+.profile__introduction {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
 @media only screen and (max-width: 720px) {
   .profile__content {
     display: flex;

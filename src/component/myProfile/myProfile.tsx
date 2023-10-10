@@ -27,7 +27,7 @@ export const MyProfile = () => {
               handleClick={() => navigate('/resume')}
             />
           </div>
-          <p>{introduction}</p>
+          <p className="profile__introduction">{introduction}</p>
         </div>
       </div>
     </div>
