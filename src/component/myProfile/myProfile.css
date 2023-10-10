@@ -46,7 +46,7 @@
 }
 .title {
   margin-top: 30px;
-  font-size: 20px;
+  font-size: 23px;
 }
 .paragraph {
   margin-top: 35px;
@@ -62,13 +62,14 @@
   font-weight: 700;
 }
 .paragraph__middle {
-  font-size: 30px;
+  font-size: 25px;
 }
 .paragraph__btn {
   width: 400px;
   display: flex;
 }
 .profile__introduction {
+  width: 320px;
   margin-top: 40px;
   margin-bottom: 100px;
 }

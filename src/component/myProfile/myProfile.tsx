@@ -15,7 +15,7 @@ export const MyProfile = () => {
           <p className="profile__name">Yingji</p>
           <p className="profile__name">Zheng</p>
           <div className="line"></div>
-          <p className="title">FRONTEND DEVELOPER</p>
+          <p className="title">Frontend Developer</p>
         </div>
         <div className="paragraph">
           <p className="paragraph__top">Hello</p>
